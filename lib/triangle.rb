@@ -14,6 +14,7 @@ class Triangle
       :scalene 
     else 
       :isosceles 
+    end 
   end 
   
   def over_zero? 
