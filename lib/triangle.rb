@@ -12,6 +12,7 @@ class Triangle
           raise TriangleError
         end 
       else 
+        if 
   end 
 end 
   
