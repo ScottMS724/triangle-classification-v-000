@@ -8,6 +8,10 @@ class Triangle
   
   def kind 
     if (@side_one_length + @side_two_length !> @side_three_length) || (@side_two_length + @side_three_length !> @side_one_length || (@side_three_length + @side_one_length !> @side_two_length) || (@side_one_length !> 0) || (@side_two_length !> 0) || (@side_three_length !> 0)
+        begin 
+          raise TriangleError
+        end 
+      else 
   end 
 end 
   
