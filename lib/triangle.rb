@@ -6,4 +6,8 @@ class Triangle
     @side_three_length = side_three_length 
   end 
   
+  def kind 
+    
+  end 
+  
 end
