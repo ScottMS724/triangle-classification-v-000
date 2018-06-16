@@ -8,7 +8,7 @@ class Triangle
   end 
   
   def kind 
-    if 
+    if (over_zero? && (valid_sides?)
     elsif (x == y) && (y == z) && (x == z)
       :equilateral
     elsif (x != y) && (y != z) && (x != z)
