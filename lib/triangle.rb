@@ -23,6 +23,14 @@ class Triangle
       false 
     end
   end 
+  
+  def valid_sides?
+    if (x + y > z) && (y + z > x) && (x + z > y)
+      true 
+    else 
+      false 
+    end 
+  end 
     
 end 
   
