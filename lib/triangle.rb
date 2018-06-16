@@ -1,20 +1,14 @@
 class Triangle
+  attr_accessor :x, :y, :z 
   
-  def initialize(side_one_length, side_two_length, size_three_length)
-    @side_one_length = side_one_length
-    @side_two_length = side_two_length 
-    @side_three_length = side_three_length 
+  def initialize(x, y, z)
+    @x = x 
+    @y = y 
+    @z = z 
   end 
   
   def kind 
-    if (@side_one_length + @side_two_length !> @side_three_length) || (@side_two_length + @side_three_length !> @side_one_length || (@side_three_length + @side_one_length !> @side_two_length) || (@side_one_length !> 0) || (@side_two_length !> 0) || (@side_three_length !> 0)
-        begin 
-          raise TriangleError
-        end 
-      else 
-        if (@side_one_length == @side_two_length == @side_three_length)
-          return :equilateral
-        elsif (@)
+    
   end 
 end 
   
