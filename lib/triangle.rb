@@ -14,7 +14,7 @@ class Triangle
       else 
         if (@side_one_length == @side_two_length == @side_three_length)
           return :equilateral
-        elsif ()
+        elsif (@)
   end 
 end 
   
