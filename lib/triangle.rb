@@ -8,7 +8,7 @@ class Triangle
   end 
   
   def kind 
-    if !(over_zero? && valid_sides?)
+    if (over_zero? && valid_sides?) == false 
       begin 
         raise TriangleError 
       end 
