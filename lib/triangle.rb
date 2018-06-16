@@ -17,7 +17,11 @@ class Triangle
   end 
   
   def over_zero? 
-    
+    if (x > 0) && (y > 0) && (z > 0)
+      true 
+    else
+      false 
+    end 
   end 
 end 
   
