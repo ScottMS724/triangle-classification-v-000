@@ -15,6 +15,10 @@ class Triangle
     else 
       :isosceles 
   end 
+  
+  def over_zero? 
+    
+  end 
 end 
   
 class TriangleError < StandardError 
