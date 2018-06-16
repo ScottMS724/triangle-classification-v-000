@@ -8,7 +8,7 @@ class Triangle
   end 
   
   def kind 
-    if (x == y)
+    if (x == y) && (y == z) && (x == z)
   end 
 end 
   
