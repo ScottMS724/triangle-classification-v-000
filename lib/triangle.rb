@@ -8,7 +8,7 @@ class Triangle
   end 
   
   def kind 
-    elsif (x == y) && (y == z) && (x == z)
+    if (x == y) && (y == z) && (x == z)
       :equilateral
     elsif (x != y) && (y != z) && (x != z)
       :scalene 
