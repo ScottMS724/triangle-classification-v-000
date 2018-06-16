@@ -7,7 +7,7 @@ class Triangle
   end 
   
   def kind 
-    
+    if (@side_one_length + @side_two_length !> @side_three_length) || (@side_two_length + @side_three_length !> @side_one_length || (@side_three_length + @side_one_length !> @side_two_length)
   end 
 end 
   
