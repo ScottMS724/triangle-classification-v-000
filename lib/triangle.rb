@@ -12,7 +12,9 @@ class Triangle
           raise TriangleError
         end 
       else 
-        if 
+        if (@side_one_length == @side_two_length == @side_three_length)
+          return :equilateral
+        elsif ()
   end 
 end 
   
